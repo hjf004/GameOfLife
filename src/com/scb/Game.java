@@ -3,7 +3,7 @@
 public class Game {
 
 	private int[][] grid;	//二维数组存储当代的生命
-    private int[][] nextGrid;	//二维数组存储下一代生命，用作缓存
+	private int[][] nextGrid;	//二维数组存储下一代生命，用作缓存
 	
 	/**
 	 * 设置grid值
