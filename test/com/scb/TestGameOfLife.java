@@ -6,6 +6,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test; 
 
+/**
+ * 测试类，包含一些测试用例
+ * @author Group 5
+ *
+ */
 public class TestGameOfLife {
 	private Game game;
 	
