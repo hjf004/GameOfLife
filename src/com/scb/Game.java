@@ -47,8 +47,8 @@ public class Game {
 	 * @param c 列数
 	 * @return true live neighbors 少于两个，false live neighbors在两个或两个以上
 	 */
-    public boolean ifTooLonely(int r,int c){
-		if(calculateLifeAround(r, c)<2)
+	public boolean ifTooLonely(int r, int c) {
+		if (calculateLifeAround(r, c) < 2)
 			return true;
 		return false;
 	}
@@ -61,12 +61,12 @@ public class Game {
 	 * @param c 列数
 	 * @return true  live neighbors超过三个，false   live neighbors没有超过三个
 	 */
-    public boolean ifTooCrowd(int r,int c){
-    	if(calculateLifeAround(r, c) > 3) {
-    		return true;
-    	}else {
-    		return false;
-    	}
+	public boolean ifTooCrowd(int r, int c) {
+		if (calculateLifeAround(r, c) > 3) {
+			return true;
+		} else {
+			return false;
+		}
 	}
     
     
@@ -78,11 +78,11 @@ public class Game {
 	 * @param c 列数
 	 * @return true  live neighbors恰好三个，false   live neighbors不是三个
 	 */
-    public boolean ifCanRevive(int r,int c){
-    	if(3 == calculateLifeAround(r, c))
-    		return true;
-    	else
-    		return false;
+	public boolean ifCanRevive(int r, int c) {
+		if (3 == calculateLifeAround(r, c))
+			return true;
+		else
+			return false;
 	}
     
     
@@ -100,7 +100,7 @@ public class Game {
 			return true;
 
 	}
-    
+
     /**
      * @author 胡季风
      * 根据规则产生下一代
