@@ -20,7 +20,8 @@ public class Game {
 	}
 
 	/**
-	 * @author 杨海峰 计算某个cell周围存活体的个数
+	 * @author 杨海峰 
+	 * 计算某个cell周围存活体的个数
 	 * @param r 行数
 	 * @param c 列数
 	 * @return 返回存活体的个数,-1代表出现错误
@@ -38,7 +39,8 @@ public class Game {
 	}
 
 	/**
-	 * @author 郭杨杨 判断某个live cell是否太寂寞(has fewer than two live neighbors)
+	 * @author 郭杨杨 
+	 * 判断某个live cell是否太寂寞(has fewer than two live neighbors)
 	 * @param r 行数
 	 * @param c 列数
 	 * @return true live neighbors 少于两个，false live neighbors在两个或两个以上
@@ -50,7 +52,8 @@ public class Game {
 	}
 
 	/**
-	 * @author 钟明阳 判断某个live cell是否太拥挤(has more than three live neighbors)
+	 * @author 钟明阳 
+	 * 判断某个live cell是否太拥挤(has more than three live neighbors)
 	 * @param r 行数
 	 * @param c 列数
 	 * @return true live neighbors超过三个，false live neighbors没有超过三个
@@ -64,7 +67,8 @@ public class Game {
 	}
 
 	/**
-	 * @author 钱海龙 判断某个dead cell是否能够复活(has exactly three live neighbors)
+	 * @author 钱海龙 
+	 * 判断某个dead cell是否能够复活(has exactly three live neighbors)
 	 * @param r 行数
 	 * @param c 列数
 	 * @return true live neighbors恰好三个，false live neighbors不是三个
@@ -77,7 +81,8 @@ public class Game {
 	}
 
 	/**
-	 * @author 邓袁 判断某个 live cell是否能够继续活着（has two or three live neighbors)
+	 * @author 邓袁
+	 * 判断某个 live cell是否能够继续活着（has two or three live neighbors)
 	 * @param r 行数
 	 * @param c 列数
 	 * @return true live neighbors = 2 or 3; 否则, return false
@@ -91,7 +96,8 @@ public class Game {
 	}
 
 	/**
-	 * @author 胡季风 根据规则产生下一代
+	 * @author 胡季风 
+	 * 根据规则产生下一代
 	 * @return 下一代二维数组
 	 */
 	public int[][] nextGeneration() {
